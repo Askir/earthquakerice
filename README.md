@@ -4,8 +4,9 @@ And is deployed via github pages at https://askir.github.io/earthquakerice.
 
 ## Features
 
-The application shows a map of all earthquakes in the last 24 hours. The data is loaded via the API from https://earthquake.usgs.gov/.
-In addition all earthquakes are also listed below the map with exact magnitude and location and time of occurence.
+The application shows a map of all earthquakes in the last 24 hours. The data is loaded via the API from https://earthquake.usgs.gov/ and displayed on a custom google map. Eartquakes with a higher magnitude are displayed with larger circles on the map.
+
+In addition all earthquakes are also listed below the map with exact magnitude, location and time of occurence.
 
 
 If you want to check the code out run: `git clone https://github.com/Askir/earthquakerice.git`.
