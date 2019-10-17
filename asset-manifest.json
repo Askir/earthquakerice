@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/earthquakerice/static/css/main.08e0d939.chunk.css",
-    "main.js": "/earthquakerice/static/js/main.65863a70.chunk.js",
-    "main.js.map": "/earthquakerice/static/js/main.65863a70.chunk.js.map",
+    "main.css": "/earthquakerice/static/css/main.0aad60e7.chunk.css",
+    "main.js": "/earthquakerice/static/js/main.67219ca2.chunk.js",
+    "main.js.map": "/earthquakerice/static/js/main.67219ca2.chunk.js.map",
     "runtime-main.js": "/earthquakerice/static/js/runtime-main.efd82eea.js",
     "runtime-main.js.map": "/earthquakerice/static/js/runtime-main.efd82eea.js.map",
-    "static/js/2.0886defb.chunk.js": "/earthquakerice/static/js/2.0886defb.chunk.js",
-    "static/js/2.0886defb.chunk.js.map": "/earthquakerice/static/js/2.0886defb.chunk.js.map",
+    "static/js/2.42bbc10d.chunk.js": "/earthquakerice/static/js/2.42bbc10d.chunk.js",
+    "static/js/2.42bbc10d.chunk.js.map": "/earthquakerice/static/js/2.42bbc10d.chunk.js.map",
     "index.html": "/earthquakerice/index.html",
-    "precache-manifest.6af4a9164c9be6d058f750cc5334ec48.js": "/earthquakerice/precache-manifest.6af4a9164c9be6d058f750cc5334ec48.js",
+    "precache-manifest.303103fec3266fd5c871b3d02bbdc1f2.js": "/earthquakerice/precache-manifest.303103fec3266fd5c871b3d02bbdc1f2.js",
     "service-worker.js": "/earthquakerice/service-worker.js",
-    "static/css/main.08e0d939.chunk.css.map": "/earthquakerice/static/css/main.08e0d939.chunk.css.map"
+    "static/css/main.0aad60e7.chunk.css.map": "/earthquakerice/static/css/main.0aad60e7.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.efd82eea.js",
-    "static/js/2.0886defb.chunk.js",
-    "static/css/main.08e0d939.chunk.css",
-    "static/js/main.65863a70.chunk.js"
+    "static/js/2.42bbc10d.chunk.js",
+    "static/css/main.0aad60e7.chunk.css",
+    "static/js/main.67219ca2.chunk.js"
   ]
 }
