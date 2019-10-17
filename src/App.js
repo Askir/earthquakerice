@@ -8,10 +8,7 @@ function App() {
   const [earthquakes, setEathquakes] = useState([]);
   useEffect(() => {
     FeedService.retrieveDaily().then((data) => {
-      console.log(data);
-      console.log(data.type);
       setEathquakes(data.features);
-      console.log(earthquakes);
     });
   }, []);
 

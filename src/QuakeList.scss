@@ -1,8 +1,9 @@
 .QuakeList{
     
+    padding: 50px;
     display: flex;
     justify-content: center;
-    width: 60%;
+    max-width: 1000px;
     margin: auto;
     flex-flow: column wrap;
     .QuakeItem{
@@ -11,10 +12,25 @@
         flex-direction: row;
         margin: 20px;
         justify-content: center;
+        border-bottom: 1px solid black; 
 
         div{
-            width: 400px;
+            width: 33%;
             margin: 0 20px;
+        }
+    }
+    .QuakeHeader{
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        justify-content: center;
+        border-bottom: 3px solid black;
+        div{
+            width: 33%;
+            margin: 0 20px;
+            .Icon{
+                margin: 0px 10px;
+            }
         }
     }
 }

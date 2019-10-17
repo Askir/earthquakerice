@@ -1,7 +1,5 @@
 import React from 'react';
 import './QuakeList.scss';
-import { ic_gps_fixed } from 'react-icons-kit/md/ic_gps_fixed';
-import { Icon } from 'react-icons-kit';
 
 function QuakeItem({ earthquake = {} }) {
   const date = new Date(earthquake.properties.time);
