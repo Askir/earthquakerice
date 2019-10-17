@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/earthquakerice/static/css/main.fc76f0dd.chunk.css",
+    "main.css": "/earthquakerice/static/css/main.eced2a28.chunk.css",
     "main.js": "/earthquakerice/static/js/main.72f85c9d.chunk.js",
     "main.js.map": "/earthquakerice/static/js/main.72f85c9d.chunk.js.map",
     "runtime-main.js": "/earthquakerice/static/js/runtime-main.efd82eea.js",
@@ -8,14 +8,14 @@
     "static/js/2.1c3cee83.chunk.js": "/earthquakerice/static/js/2.1c3cee83.chunk.js",
     "static/js/2.1c3cee83.chunk.js.map": "/earthquakerice/static/js/2.1c3cee83.chunk.js.map",
     "index.html": "/earthquakerice/index.html",
-    "precache-manifest.fb19f99d16cb603d1a55e0ee12abc538.js": "/earthquakerice/precache-manifest.fb19f99d16cb603d1a55e0ee12abc538.js",
+    "precache-manifest.1ba752263e6e0f7cf6dfd91de409018c.js": "/earthquakerice/precache-manifest.1ba752263e6e0f7cf6dfd91de409018c.js",
     "service-worker.js": "/earthquakerice/service-worker.js",
-    "static/css/main.fc76f0dd.chunk.css.map": "/earthquakerice/static/css/main.fc76f0dd.chunk.css.map"
+    "static/css/main.eced2a28.chunk.css.map": "/earthquakerice/static/css/main.eced2a28.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.efd82eea.js",
     "static/js/2.1c3cee83.chunk.js",
-    "static/css/main.fc76f0dd.chunk.css",
+    "static/css/main.eced2a28.chunk.css",
     "static/js/main.72f85c9d.chunk.js"
   ]
 }

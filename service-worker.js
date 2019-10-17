@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/earthquakerice/precache-manifest.fb19f99d16cb603d1a55e0ee12abc538.js"
+  "/earthquakerice/precache-manifest.1ba752263e6e0f7cf6dfd91de409018c.js"
 );
 
 self.addEventListener('message', (event) => {
