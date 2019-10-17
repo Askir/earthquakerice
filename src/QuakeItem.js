@@ -1,18 +1,22 @@
 import React from 'react';
 import './QuakeList.scss';
+import { ic_gps_fixed } from 'react-icons-kit/md/ic_gps_fixed';
+import { Icon } from 'react-icons-kit';
 
 function QuakeItem({ earthquake = {} }) {
   const date = new Date(earthquake.properties.time);
   return (
-    <div className="QuakeItem">
-      <p>{earthquake.properties.place}</p>
-      <p>{date.toLocaleString()}</p>
-      <p>
+    <li className="QuakeItem">
+      <div className="place">
+        {earthquake.properties.place}
+      </div>
+      <div className="time">{date.toLocaleString()}</div>
+      <div className="magnitude">
         {' '}
         {earthquake.properties.mag}
         {' '}
-      </p>
-    </div>
+      </div>
+    </li>
   );
 }
 

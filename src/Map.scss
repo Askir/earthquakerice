@@ -1,0 +1,19 @@
+.RedCircle{
+  background-color: rgb(158, 6, 6);
+  opacity: 0.2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.MapHeader{
+    margin: 20px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.MapWrapper{
+  height: 100vh;
+  width: calc(100%-20px);
+  margin: 0px 20px;
+  box-shadow: 0px 0px 2px 1px rgb(0, 0, 0);;
+}
