@@ -4,7 +4,6 @@ import { ic_gps_fixed as IcGpsFixed } from 'react-icons-kit/md/ic_gps_fixed';
 import { ic_access_time as IcAccessTime } from 'react-icons-kit/md/ic_access_time';
 import { ic_trending_up as IcTrendingUp } from 'react-icons-kit/md/ic_trending_up';
 import { Icon } from 'react-icons-kit';
-import QuakeItem from './QuakeItem';
 
 function QuakeList({ earthquakes = [] }) {
   return (
@@ -33,4 +32,20 @@ function HeadRow() {
     </div>
   );
 }
+
+function QuakeItem({ earthquake = {} }) {
+  const date = new Date(earthquake.properties.time);
+  return (
+    <li className="QuakeItem">
+      <div className="place">
+        {earthquake.properties.place}
+      </div>
+      <div className="time">{date.toLocaleString()}</div>
+      <div className="magnitude">
+        {earthquake.properties.mag}
+      </div>
+    </li>
+  );
+}
+
 export default QuakeList;
