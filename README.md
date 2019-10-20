@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
-**Note: This project is currently untested as React testing seems to have some intricacies. And I didn't have the time to get into it yet.**
+**Note: This project is currently partially untested as React testing seems to have some intricacies. And I didn't have the time to get into it yet.**
 
 ### `yarn build`
 

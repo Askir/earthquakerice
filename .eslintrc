@@ -1,7 +1,12 @@
 {
-  "extends": ["airbnb"],
+  "extends": ["airbnb","plugin:jest/recommended","plugin:jest/style"],
+  "plugins": ["jest"],
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "react/prop-types": 0
+  },
+  "env": {
+    "jest/globals": true,
+    "browser": true
   }
 }
